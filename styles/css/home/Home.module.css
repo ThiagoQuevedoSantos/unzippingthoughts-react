@@ -1,0 +1,21 @@
+@font-face {
+  font-family: makenosense;
+  src: url(../../../static/assets/fonts/makenosense.otf);
+}
+@font-face {
+  font-family: youaremyevery;
+  src: url(../../../static/assets/fonts/youaremyevery.ttf);
+}
+.container {
+  padding: 0 2rem;
+}
+
+#unzipping {
+  font-family: makenosense;
+}
+
+#thoughts {
+  font-family: youaremyevery;
+}
+
+/*# sourceMappingURL=Home.module.css.map */
