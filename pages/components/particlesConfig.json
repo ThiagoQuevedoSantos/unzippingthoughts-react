@@ -20,7 +20,7 @@
       "enable": true
     },
     "fullScreen": {
-      "zIndex": 1
+      "zIndex": 100
     },
     
     "particles": {
@@ -37,8 +37,8 @@
       "move": {
         "attract": {
           "rotate": {
-            "x": 600,
-            "y": 1200
+            "x": 200,
+            "y": 400
           }
         },
         "enable": true,
@@ -70,7 +70,7 @@
           "max": 30
         },
         "animation": {
-          "speed": 40,
+          "speed": 40 ,
           "minimumValue": 0.1
         }
       }

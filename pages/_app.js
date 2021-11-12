@@ -1,7 +1,10 @@
 import Head from 'next/head'
-import '../styles/css/global/global_style.css'
 import '../styles/css/reset.css'
-import styled from 'styled-components';
+
+import '../styles/css/global/global_style.css'
+import style from '../styles/css/home/Home.module.css'
+import '../styles/css/particles/particles.css'
+
 import particlesConfig from './components/particlesConfig.json'
 import Particles from 'react-particles-js'
 
@@ -23,18 +26,16 @@ function MyApp({ Component, pageProps }) {
         />
 
       </Head>
-
-      <div id="container"> {/* NÃO ADICIONE NADA AQUI, A PÁGINA É EDITA EM index.js */}
-
-        
-
-        {/* PARTICLES BACKGROUND */}
-        <Particles params={particlesConfig} />
+      
+      <div id={style.container}> {/* NÃO ADICIONE NADA AQUI, A PÁGINA É EDITA EM index.js */}
 
         {/* PAGES */}
         <Component {...pageProps} />
 
       </div>
+
+       {/* PARTICLES BACKGROUND */}
+       <Particles className="particles" params={particlesConfig} />
     </>
   );
 }

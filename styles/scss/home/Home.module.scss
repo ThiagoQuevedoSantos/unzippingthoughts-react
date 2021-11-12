@@ -1,12 +1,11 @@
 @use '../global/global';
 
-.container {
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
     padding: 0 2rem;
+    z-index: 10000;
   }
   
-#unzipping{
-  font-family: global.$makenosense;
-}
-#thoughts{
-  font-family: global.$youaremyevery;
-}
