@@ -1,11 +1,3 @@
-@font-face {
-  font-family: makenosense;
-  src: url(../../../static/assets/fonts/makenosense.otf);
-}
-@font-face {
-  font-family: youaremyevery;
-  src: url(../../../static/assets/fonts/youaremyevery.ttf);
-}
 html,
 body {
   padding: 0;
@@ -26,6 +18,19 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#container {
+  position: absolute;
+  width: 100%;
+}
+
+#sub_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+  z-index: 10000;
 }
 
 /*# sourceMappingURL=global_style.css.map */

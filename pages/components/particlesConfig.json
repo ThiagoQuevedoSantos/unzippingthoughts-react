@@ -56,9 +56,10 @@
         "value": 80
       },
       "opacity": {
+        "value": 0.05,
         "animation": {
           "speed": 1,
-          "minimumValue": 0.1
+          "minimumValue": 0.25
         }
       },
       "size": {

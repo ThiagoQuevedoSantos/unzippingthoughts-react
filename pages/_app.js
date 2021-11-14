@@ -2,7 +2,7 @@ import Head from 'next/head'
 import '../styles/css/reset.css'
 
 import '../styles/css/global/global_style.css'
-import style from '../styles/css/home/Home.module.css'
+import style from '../styles/css/global/global_style.css'
 import '../styles/css/particles/particles.css'
 
 import particlesConfig from './components/particlesConfig.json'
@@ -26,16 +26,17 @@ function MyApp({ Component, pageProps }) {
         />
 
       </Head>
-      
-      <div id={style.container}> {/* NÃO ADICIONE NADA AQUI, A PÁGINA É EDITA EM index.js */}
+      <div id="container">
+        <Particles className="particles" params={particlesConfig} />
+        <div id="sub_container"> {/* NÃO ADICIONE NADA AQUI, A PÁGINA É EDITA EM index.js */}
 
-        {/* PAGES */}
-        <Component {...pageProps} />
+          {/* PAGES */}
+          <Component {...pageProps} />
+        </div>
+
+        {/* PARTICLES BACKGROUND */}
 
       </div>
-
-       {/* PARTICLES BACKGROUND */}
-       <Particles className="particles" params={particlesConfig} />
     </>
   );
 }

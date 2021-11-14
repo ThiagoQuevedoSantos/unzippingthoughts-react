@@ -1,7 +1,7 @@
-// @use '../../../global/global';
+@use '../../../global/global' as *;
 @mixin after_before() {
     opacity: 0;
-    color: white;
+    color: $white;
     font-size: 1.3em;
   }
 
@@ -25,7 +25,8 @@
 .nav_link{
     cursor: pointer;
     text-transform: uppercase;
-    color: white;
+    color: $white;
+    font-family: $roboto;
     font-weight: 600;
     font-size: 1.1vw;
     padding: 0;
@@ -33,7 +34,7 @@
     transition: color 200ms ease-in-out;
 }
 .nav_link:hover{
-    color: red;
+    color: $color1;
 }
 .nav_link::before{
     @include after_before;
@@ -47,7 +48,7 @@
 }
 .nav_link:hover::before, .nav_link:hover::after{
     opacity: 1;
-    color: red;
+    color: $color1;
 }
 .nav_link:hover::before{
     margin-right: 0.3vw;
