@@ -3,6 +3,11 @@
   flex-direction: column;
 }
 
+.flex_r {
+  display: flex;
+  flex-direction: row;
+}
+
 .btn {
   text-transform: uppercase;
   font-weight: 600;

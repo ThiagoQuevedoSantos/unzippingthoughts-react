@@ -5,7 +5,7 @@ class DivLeft extends React.Component {
     render() { 
         return (
         
-                <div className={style.div_left}>
+                <div className={`${style.div_left} flex_r`}>
                     <h1 id={style.title_master} className={style.title}>
                         EQUIPE DE DESENVOLVIMENTO <span className={style.color1}>UNZZIPING TOUGHTS</span>
                     </h1>

@@ -3,6 +3,11 @@
   flex-direction: column;
 }
 
+.flex_r {
+  display: flex;
+  flex-direction: row;
+}
+
 #frame {
   position: relative;
   width: 50%;

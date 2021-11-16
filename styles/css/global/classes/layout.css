@@ -3,4 +3,9 @@
   flex-direction: column;
 }
 
+.flex_r {
+  display: flex;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=layout.css.map */
