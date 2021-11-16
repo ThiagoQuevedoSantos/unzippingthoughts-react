@@ -6,12 +6,10 @@ import DivRight from './S1divRight/S1divRight';
 class SectionOne extends React.Component {
     render() { 
         return (
-            <>
             <section id={style.section_one}>
                 <DivLeft/>
                 <DivRight/>
             </section>
-            </>
         );
     }
 }

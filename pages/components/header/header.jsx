@@ -6,12 +6,12 @@ import HeaderRight from './header_right'
 class Header extends Component {
     render() { 
         return (
-        <>
+        
             <header id={style.header}>
                 <HeaderLeft/>
                 <HeaderRight/>
             </header>
-        </>
+        
         );
     }
 }

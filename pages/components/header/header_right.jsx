@@ -29,7 +29,7 @@ const elements = [
 class HeaderRight extends React.Component {
     render() { 
         return (
-            <>
+            
                 <nav className={styles.nav_header} id={styles.navbar}>
                     <ul className={styles.nav_ul}>
                         {
@@ -43,7 +43,7 @@ class HeaderRight extends React.Component {
                         }
                     </ul>
                 </nav>
-            </>
+            
         );
     }
 }

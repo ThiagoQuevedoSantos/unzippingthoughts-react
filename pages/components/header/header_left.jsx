@@ -6,9 +6,9 @@ import svgHeader from '&&/svgLogos/svgHeader.svg'
 class HeaderLeft extends Component {
     render() { 
         return (
-            <>
+            
                 <Image id={style.img} src={svgHeader}/>
-            </>
+            
         );
     }
 }
