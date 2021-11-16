@@ -1,0 +1,38 @@
+.flex_c {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 12px 30px;
+  font-weight: 500;
+}
+
+.action_container {
+  align-items: center;
+  justify-content: center;
+  margin: 2vw 0 5vw 0;
+}
+
+.style1 {
+  background-color: white;
+  color: #B80626;
+  box-shadow: 0 0 1.2vw #B80626;
+  font-size: 20px;
+  transition: color 300ms, background-color 300ms, box-shadow 500ms 100ms;
+}
+.style1:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0.4vw #B80626;
+  color: white;
+  background-color: #B80626;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=call-to-action-btn.module.css.map */
