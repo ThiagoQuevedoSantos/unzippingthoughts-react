@@ -1,0 +1,24 @@
+
+.process{
+    justify-content: space-between;
+}
+.item{
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5vw;
+
+    &::before{
+        top: 50%;
+        right: 0;
+        transform: translate(100%, -50%);
+        width: 3vw;
+        height: 3vw;
+        background-image: url('/static/assets/images/development/process-arrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+.icons{
+    width: 5.5vw;
+    height: 5.5vw;
+}
