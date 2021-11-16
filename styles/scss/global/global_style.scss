@@ -1,0 +1,40 @@
+@use '../global/global';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+  min-height: 100vh;
+  font-size: 1vw;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: global.$black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container{
+  position: absolute;
+  width: 100%;
+}
+
+#sub_container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    padding: 0 2rem;
+    z-index: 10000;
+  }
