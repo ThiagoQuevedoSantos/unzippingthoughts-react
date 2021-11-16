@@ -25,6 +25,8 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
 
+        <title>UnzippingThoughts</title>
+
       </Head>
       <div id="container">
         <Particles className="particles" params={particlesConfig} />
