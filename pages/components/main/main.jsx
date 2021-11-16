@@ -11,7 +11,7 @@ class Main extends React.Component {
             <SectionOne/>
             {/* <SectionTwo/> */}
             <CallToActionBtn text="Contate-nos" position="center" btnStyle="style1"/>
-            {/* <SectionThree/> */}
+            <SectionThree/>
             </>
         );
     }
