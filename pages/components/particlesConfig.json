@@ -35,7 +35,9 @@
         "enable": false
       },
       "move": {
+        "bounce": false,
         "attract": {
+          "enable": false,
           "rotate": {
             "x": 200,
             "y": 400
