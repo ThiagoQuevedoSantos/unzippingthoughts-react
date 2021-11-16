@@ -1,0 +1,88 @@
+.flex_c {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_r {
+  display: flex;
+  flex-direction: row;
+}
+
+.simple_p {
+  font-size: 1.6vw;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.upperline {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: fit-content;
+  position: relative;
+}
+.upperline::before {
+  content: "";
+  position: absolute;
+  top: -0.8vw;
+  left: 0;
+  width: 30%;
+  border-top: 0.4vw solid #EA072F;
+}
+
+.sideline {
+  font-size: 3vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: fit-content;
+  position: relative;
+}
+.sideline::before {
+  content: "";
+  position: absolute;
+  top: 0vw;
+  left: -1vw;
+  height: 100%;
+  border-left: 0.3vw solid #EA072F;
+}
+
+.long_upperline {
+  position: relative;
+  font-size: 5vw;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0.6vw 0 0 0;
+  color: #FEFEFE;
+}
+.long_upperline::after {
+  content: "";
+  position: absolute;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.pseudo {
+  position: relative;
+}
+
+.bef::before {
+  position: absolute;
+  content: "";
+}
+
+.aft::before {
+  position: absolute;
+  content: "";
+}
+
+#section4 {
+  background-color: #FEFEFE;
+  padding: 60px 100px;
+  gap: 60px;
+  margin-top: 100px;
+}
+
+/*# sourceMappingURL=section_four.module.css.map */
