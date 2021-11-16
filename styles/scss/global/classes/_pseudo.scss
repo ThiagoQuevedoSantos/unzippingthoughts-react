@@ -1,0 +1,15 @@
+.pseudo{
+    position: relative;
+}
+.bef{
+    &::before{
+        position: absolute;
+        content: "";
+    }
+}
+.aft{
+    &::before{
+        position: absolute;
+        content: "";
+    }
+}
