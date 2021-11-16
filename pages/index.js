@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import { Component } from 'react';
 
-import styles from '../styles/css/home/Home.module.css'
-import Header from './components/header/header';
-import Main from './components/main/main';
+import styles from '&/home/Home.module.css'
+import Header from '@/header/header';
+import Main from '@/main/main';
 
 export default function Home() {
   return(

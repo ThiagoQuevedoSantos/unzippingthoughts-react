@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from '../../../../../styles/css/home/main/section1/divLeft/DivLeft.module.css';
+import style from '&/home/main/section1/divLeft/DivLeft.module.css';
 
 class DivLeft extends React.Component {
     render() { 

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import style from '../../../styles/css/home/header/Header.module.css';
+import style from '&/home/header/Header.module.css';
 import HeaderLeft from './header_left';
 import HeaderRight from './header_right'
 

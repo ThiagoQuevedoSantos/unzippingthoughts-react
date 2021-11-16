@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from '../../../styles/css/home/header/headerRight/HeaderRight.module.css'
+import styles from '&/home/header/headerRight/HeaderRight.module.css'
 let header, experiencia, desenvolvimento, membros, web_moderna = [];
 
 const elements = [

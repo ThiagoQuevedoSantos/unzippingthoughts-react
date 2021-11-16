@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import '../styles/css/reset.css'
+import '&/reset.css'
 
-import '../styles/css/global/global_style.css'
-import style from '../styles/css/global/global_style.css'
-import '../styles/css/particles/particles.css'
+import '&/global/global_style.css'
+import style from '&/global/global_style.css'
+import '&/particles/particles.css'
 
-import particlesConfig from './components/particlesConfig.json'
+import particlesConfig from '@/particlesConfig.json'
 import Particles from 'react-particles-js'
 
 
