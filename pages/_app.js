@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import '&/reset.css'
 
 import '&/global/global_style.css'
 import style from '&/global/global_style.css'
@@ -24,6 +23,8 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=block"
           rel="stylesheet"
         />
+        <link rel="stylesheet" href="../static/assets/fonts/font_loader.css" />
+        <link rel="stylesheet" href="../static/assets/css/reset.css" />
 
         <title>UnzippingThoughts</title>
 
