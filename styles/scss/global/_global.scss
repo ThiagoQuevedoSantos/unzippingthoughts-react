@@ -1,5 +1,6 @@
-// Colors
+@forward './classes';
 
+// Colors
 $black: #0D0D0D;
 $snow:  #FFFAFA;
 $white: #FEFEFE;
@@ -14,14 +15,3 @@ $color5: #6B2330;
 
 $oswald: "Oswald", sans-serif;
 $roboto: "Roboto", sans-serif;
-
-// $makenosense: makenosense;
-// $youaremyevery: youaremyevery;
-// @font-face {
-//     font-family: 'makenosense';
-//     src: url(../../../../../../static/assets/fonts/makenosense.otf);
-// }
-// @font-face {
-//     font-family: 'youaremyevery';
-//     src: url(../../../../../../static/assets/fonts/youaremyevery.ttf);
-// }
