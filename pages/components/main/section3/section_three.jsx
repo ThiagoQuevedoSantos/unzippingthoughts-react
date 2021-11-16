@@ -8,7 +8,7 @@ class SectionThree extends React.Component {
     render() {
         return (
             <section id={style.section3} className="flex_c"> 
-                <TitleTop title_style="upperline" title="processo de desenvolvimento" text="um texto de teste"/>
+                <TitleTop title_style="upperline" title="processo de desenvolvimento"/>
                 <DivBottom />
             </section>
         );

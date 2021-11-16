@@ -14,9 +14,9 @@ function DivBottom() {
   return (
     <div className={`flex_c ${style.div_bottom}`} id="development">
       <ul className={`${style.process} flex_r`}>
-        {FIGURE.map((array) => {
+        {FIGURE.map((array, index) => {
           return (
-            <li className={`${style.item} flex_c pseudo bef`}>
+            <li className={`${style.item} flex_c pseudo bef`} key={index}>
               <img
                 className={style.icons}
                 src={array[1]}
