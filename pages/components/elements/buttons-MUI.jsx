@@ -1,4 +1,4 @@
-import style from '&/home/main/section2/S2divRight/elements/buttons-MUI.module.css';
+import style from '&/home/elements/buttons-MUI.module.css';
 import theme from '@/elements/MUI/paletaColors.js';
 import Button from '@material-ui/core/Button';
 import { ThemeProvider } from '@material-ui/core';
