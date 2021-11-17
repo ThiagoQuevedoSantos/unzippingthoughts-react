@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import style from '../../../../styles/css/home/main/section1/Section_one.module.css'
+import style from '&/home/main/section1/section_one.module.css'
 import DivLeft from './S1divLeft/S1divLeft';
 import DivRight from './S1divRight/S1divRight';
 

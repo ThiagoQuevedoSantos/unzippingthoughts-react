@@ -1,0 +1,11 @@
+@use '../../../../global/global' as *;
+
+#div_left{
+    justify-content: center;
+    align-items: center;
+}
+#title_master{
+    font-family: $oswald;
+    padding: 0 2vw;
+}
+

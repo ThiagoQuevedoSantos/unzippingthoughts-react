@@ -8,10 +8,29 @@
   flex-direction: row;
 }
 
+.div_half {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
 .simple_p {
   font-size: 1.6vw;
   font-weight: 300;
   line-height: 1.5em;
+}
+
+.high_p {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.simple_h1 {
+  font-size: 4em;
+  font-weight: 600;
+  color: #FEFEFE;
+  text-transform: uppercase;
 }
 
 .upperline {
@@ -62,6 +81,10 @@
 
 .upper {
   text-transform: uppercase;
+}
+
+.highlighter {
+  color: #EA072F;
 }
 
 .pseudo {

@@ -10,7 +10,7 @@ class Main extends React.Component {
         return (
             <>
             <SectionOne/>
-            {/* <SectionTwo/> */}
+            <SectionTwo/>
             <CallToActionBtn text="Contate-nos" position="center" btnStyle="style1"/>
             <SectionThree/>
             <SectionFour/>
