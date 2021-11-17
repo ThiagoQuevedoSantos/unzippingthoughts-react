@@ -101,37 +101,20 @@
   content: "";
 }
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  min-height: 100vh;
-  font-size: 1vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: #0D0D0D;
+.buttons {
+  margin: 1vw;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.button_text {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
 }
 
-* {
-  box-sizing: border-box;
+.center {
+  justify-content: center;
+  align-items: center;
 }
 
-#container {
-  position: absolute;
-  width: 100%;
-}
-
-#sub_container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  z-index: 10000;
-}
-
-/*# sourceMappingURL=global_style.css.map */
+/*# sourceMappingURL=buttons-MUI.module.css.map */

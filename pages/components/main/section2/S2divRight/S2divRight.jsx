@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import styleSection from '&/home/main/section2/Section_two.module.css';
-import style from '&/home/main/section2/S2divRight/S2DivRight.module.css';
-import ButtonsMUI from './elements/buttons-MUI';
+import style from '&/home/main/section2/S2divRight/S2divRight.module.css';
+import ButtonsMUI from '../../../elements/buttons-MUI';
 
 
 
@@ -19,9 +18,9 @@ class DivRight extends React.Component {
                             envolvidos!
                         </p>
                     </div>
-                    <div>
-                        <ButtonsMUI text="Comportamental"/>
-                        <ButtonsMUI text="Técnico"/>
+                    <div id={style.div_buttons}>
+                        <ButtonsMUI text="Comportamental" color="primary" variant="contained"/>
+                        <ButtonsMUI text="Técnico" color="primary" variant="contained"/>
                     </div>
                 </div>
             </>
