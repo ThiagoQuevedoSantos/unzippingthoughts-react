@@ -1,9 +1,10 @@
 @use '../../../global/abstract' as *;
+
 @mixin after_before() {
     opacity: 0;
     color: $white;
     font-size: 1.3em;
-  }
+}
 
 #navbar {
     position: relative;

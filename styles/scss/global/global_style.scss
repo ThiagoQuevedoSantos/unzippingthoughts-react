@@ -1,4 +1,5 @@
-@use '../global/abstract';
+@use '../global/abstract' as *;
+@use '../global/global' as *;
 
 html,
 body {
@@ -11,7 +12,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
-  background-color: global.$black;
+  background-color: $black;
 }
 
 a {

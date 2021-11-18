@@ -1,17 +1,63 @@
-/* Error: Undefined variable.
- *    ,
- * 29 |     font-family: $roboto;
- *    |                  ^^^^^^^
- *    '
- *   styles\scss\home\header\headerRight\HeaderRight.module.scss 29:18  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 29 \2502      font-family: $roboto;\d\a    \2502                   ^^^^^^^\a    \2575 \a   styles\\scss\\home\\header\\headerRight\\HeaderRight.module.scss 29:18  root stylesheet";
+#navbar {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
+
+.nav_ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_li {
+  margin: 0.2vw;
+}
+
+.nav_link {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  padding: 0;
+  transition: color 200ms ease-in-out;
+}
+
+.nav_link:hover {
+  color: #EA072F;
+}
+
+.nav_link::before {
+  opacity: 0;
+  color: #FEFEFE;
+  font-size: 1.3em;
+  content: "<";
+  transition: color 200ms ease-in-out, margin-right 300ms, opacity 100ms;
+}
+
+.nav_link::after {
+  opacity: 0;
+  color: #FEFEFE;
+  font-size: 1.3em;
+  content: "/>";
+  transition: color 200ms ease-in-out, margin-left 300ms, opacity 100ms;
+}
+
+.nav_link:hover::before, .nav_link:hover::after {
+  opacity: 1;
+  color: #EA072F;
+}
+
+.nav_link:hover::before {
+  margin-right: 0.3vw;
+}
+
+.nav_link:hover::after {
+  margin-left: 0.3vw;
+}
+
+/*# sourceMappingURL=HeaderRight.module.css.map */
