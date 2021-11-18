@@ -1,15 +1,13 @@
 @use '../../../../global/global' as *;
 
-#paragraph_container{
-    width: 100%;
-    height: 80%;
-}
+
 #paragraph{
-    padding: 3vw 1vw;
-    font-family: $oswald;
     text-transform: uppercase;
     text-align: justify;
 }
 #div_buttons{
     display: flex;
+}
+.flex_c{
+    gap: 30px;
 }

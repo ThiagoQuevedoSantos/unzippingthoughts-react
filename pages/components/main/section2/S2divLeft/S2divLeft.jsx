@@ -6,13 +6,11 @@ import svgTeuFuturo from '&&/svgLogos/svgTeuFuturo.svg';
 class DivLeft extends React.Component {
     render() {
         return (
-            <>
-                <div id={style.left} className="div_half">
-                    <div id={style.image_container} className={style.img_container}>
+                <div id={style.left} className="flex_r">
+                    <div id={style.image_container}>
                         <Image src={svgTeuFuturo} layout="fill" />
                     </div>
                 </div>
-            </>
         );
     }
 }

@@ -7,8 +7,11 @@
     display: flex;
     flex-direction: row;
 }
+.grid{
+    display: grid;
+}
 .div_half{
     width: 50%;
-    height: 100%;
+    height: fit-content;
     position: relative;
 }

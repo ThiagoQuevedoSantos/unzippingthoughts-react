@@ -7,9 +7,8 @@ import ButtonsMUI from '../../../elements/buttons-MUI';
 class DivRight extends React.Component {
     render() {
         return (
-            <>
-                <div className="div_half">
-                    <div id={style.paragraph_container}>
+                <div className={style.flex_c}>
+                    <div>
                         <p id={style.paragraph} className="high_p">
                             Nossa equipe conta com um amplo conhecimento
                             <span className="highlighter"> técnico</span> e
@@ -23,7 +22,6 @@ class DivRight extends React.Component {
                         <ButtonsMUI text="Técnico" color="primary" variant="contained" margin="margin_on"/>
                     </div>
                 </div>
-            </>
         );
     }
 }

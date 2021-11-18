@@ -1,6 +1,8 @@
 
+#left{
+    justify-content: center;
+}
 #image_container{
     position: relative;
-    width: 75%;
-    height: 100%;
+    flex-grow: 1;
 }

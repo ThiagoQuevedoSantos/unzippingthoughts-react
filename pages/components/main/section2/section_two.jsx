@@ -7,7 +7,7 @@ import DivRight from './S2divRight/S2divRight';
 class SectionTwo extends React.Component {
     render() {
         return (
-            <section id={style.section_two} className="flex_r"> 
+            <section id={style.section_two} className="grid"> 
                 <DivLeft />
                 <DivRight />
             </section>
