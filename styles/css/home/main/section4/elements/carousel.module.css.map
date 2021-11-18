@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"carousel.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../../../scss/home/main/section4/elements/carousel.module.scss","../../../../../scss/global/abstract/_colors.scss"],"names":[],"mappings":"AAGA;EACI,MCEK;EDDL;EACA","file":"carousel.module.css"}
