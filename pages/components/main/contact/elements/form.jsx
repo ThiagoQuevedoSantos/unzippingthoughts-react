@@ -18,7 +18,7 @@ function Form() {
             <form id={style.form_contact} className="flex_c">
                 {fields.map((data, index) => {
                     return (
-                        <input type={data.type} placeholder={data.text} className={style.inputs} key={index} />
+                        <input type={data.type} required="" placeholder={data.text} className={style.inputs} key={index} />
                     );
                 })
                 }
@@ -26,6 +26,7 @@ function Form() {
                     <textarea className={style.text_area} typeof="text" placeholder="DIGITE SUA MENSAGEM AQUI" />
                 </div>
                 <ButtonsMUI text="Enviar" color="primary" variant="contained" />
+                {/* <input type="submit" /> */}
             </form>
         </div>
     );
