@@ -101,11 +101,12 @@
   content: "";
 }
 
-#section_two {
-  background: #FEFEFE;
+#section_contact {
+  position: relative;
   width: 100%;
   height: 80vh;
-  padding: 5vw 2vw;
+  background: #FEFEFE;
+  margin-top: 10vh;
 }
 
-/*# sourceMappingURL=section_two.module.css.map */
+/*# sourceMappingURL=contact.module.css.map */

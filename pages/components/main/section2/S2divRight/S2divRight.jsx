@@ -19,8 +19,8 @@ class DivRight extends React.Component {
                         </p>
                     </div>
                     <div id={style.div_buttons}>
-                        <ButtonsMUI text="Comportamental" color="primary" variant="contained"/>
-                        <ButtonsMUI text="Técnico" color="primary" variant="contained"/>
+                        <ButtonsMUI text="Comportamental" color="primary" variant="contained" margin="margin_on"/>
+                        <ButtonsMUI text="Técnico" color="primary" variant="contained" margin="margin_on"/>
                     </div>
                 </div>
             </>

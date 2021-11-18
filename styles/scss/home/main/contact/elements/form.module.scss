@@ -1,0 +1,32 @@
+@use '../../../../global/global' as *;
+
+#div_form{
+    display: flex;
+    justify-content: center;
+}
+#form_contact{
+    width: 85%;
+    // padding: 1vw;
+    margin: 3vw;
+}
+.inputs{
+    height: 7vh;
+}
+.text_area{
+    position: relative;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 20vh;
+    max-height: 50vh;
+}
+.inputs, .div_text_area{
+    position: relative;
+    width: 100%;
+    margin: 0.5vw 0;
+}
+.inputs, .text_area{
+    font-size: 1.4em;
+    padding: 1vw;
+    border: 0.2vw solid rgb(0, 0, 0, 0.5);
+    border-radius: 0.4vw;
+}

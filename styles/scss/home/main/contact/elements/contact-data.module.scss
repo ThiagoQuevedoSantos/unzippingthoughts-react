@@ -1,0 +1,26 @@
+@use '../../../../global/global' as *;
+
+#div_info{
+    display: flex;
+    justify-content: center;
+    &::before{
+        content: "";
+        display: block;
+        margin: auto;
+        margin-left: 0;
+        margin-right: 0;
+        width: 0.2vw;
+        height: 85%;
+        background: $color2;
+    }
+}
+.info{
+    position: relative;
+    margin: 3vw;
+    padding: 1vw;
+    right: 0;
+    width: 60%;
+}
+.info_h2{
+    font-size: 1.5em;
+}

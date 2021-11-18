@@ -101,11 +101,31 @@
   content: "";
 }
 
-#section_two {
-  background: #FEFEFE;
-  width: 100%;
-  height: 80vh;
-  padding: 5vw 2vw;
+#div_info {
+  display: flex;
+  justify-content: center;
+}
+#div_info::before {
+  content: "";
+  display: block;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+  width: 0.2vw;
+  height: 85%;
+  background: #B80626;
 }
 
-/*# sourceMappingURL=section_two.module.css.map */
+.info {
+  position: relative;
+  margin: 3vw;
+  padding: 1vw;
+  right: 0;
+  width: 60%;
+}
+
+.info_h2 {
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=contact-data.module.css.map */
