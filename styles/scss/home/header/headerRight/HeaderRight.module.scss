@@ -1,4 +1,4 @@
-@use '../../../global/global' as *;
+@use '../../../global/abstract' as *;
 @mixin after_before() {
     opacity: 0;
     color: $white;
