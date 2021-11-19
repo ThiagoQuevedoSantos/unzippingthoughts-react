@@ -7,4 +7,12 @@
   grid-template-rows: auto;
 }
 
-/*# sourceMappingURL=section_two.module.css.map */
+@media screen and (max-width: 480px) {
+  #section_two {
+    grid-template-rows: 6fr 5fr;
+    grid-template-columns: auto;
+    padding: 40px 20px 40px 20px;
+  }
+}
+
+/*# sourceMappingURL=Section_two.module.css.map */

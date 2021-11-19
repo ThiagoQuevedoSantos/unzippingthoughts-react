@@ -9,3 +9,12 @@
     padding: 0 2vw;
 }
 
+@media screen and (max-width: 480px) {
+    #div_left{
+        width: 100%;
+        padding: 10px;
+    }
+    #title_master{
+        font-size: 30px;
+    }
+}

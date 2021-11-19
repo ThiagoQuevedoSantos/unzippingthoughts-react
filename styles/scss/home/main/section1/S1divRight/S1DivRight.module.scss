@@ -1,7 +1,16 @@
 @use '../../../../global/abstract' as *;
 
 #frame{
+    position: relative;
+    display: flex;
     height: 80%;
     margin-right: 2vw;
     background: $white;
+}
+
+@media screen and (max-width: 480px) {
+    #frame{
+        width: 90%;
+        height: 200px;
+    }
 }

@@ -11,4 +11,16 @@
   gap: 30px;
 }
 
+@media screen and (max-width: 480px) {
+  #paragraph {
+    font-size: 24px;
+    margin: 20px 20px 10px 20px;
+  }
+
+  #div_buttons {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=S2divRight.module.css.map */

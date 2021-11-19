@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../../../scss/home/main/section1/S1divLeft/S1DivLeft.module.scss","../../../../../scss/global/abstract/_fonts.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;;AAEJ;EACI,aCNK;EDOL","file":"S1DivLeft.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../../../scss/home/main/section1/S1divLeft/S1DivLeft.module.scss","../../../../../scss/global/abstract/_fonts.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;;AAEJ;EACI,aCNK;EDOL;;;AAGJ;EACI;IACI;IACA;;;EAEJ;IACI","file":"S1DivLeft.module.css"}
