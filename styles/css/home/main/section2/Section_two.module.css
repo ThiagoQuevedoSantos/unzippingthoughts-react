@@ -12,6 +12,7 @@
     grid-template-rows: 6fr 5fr;
     grid-template-columns: auto;
     padding: 40px 20px 40px 20px;
+    margin-top: 50px;
   }
 }
 

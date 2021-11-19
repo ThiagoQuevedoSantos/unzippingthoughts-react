@@ -21,10 +21,10 @@ const elements = [
         text: "MEMBROS",
         id: "membros",
     },
-    web_moderna = {
-        text: "WEB MODERNA",
-        id: "web_moderna"
-    },
+    // web_moderna = {
+    //     text: "WEB MODERNA",
+    //     id: "web_moderna"
+    // },
     contato = {
         text: "CONTATO",
         id: "contato"
